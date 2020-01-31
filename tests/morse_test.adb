@@ -25,15 +25,15 @@ package body Morse_Test is
    begin
       Morse_Case := (Gap, Gap, Gap, Gap, Gap, Gap, Gap, Gap);
       Result := Parse_Letter (Morse_Case);
-      Test_Case ((Result = '#'), "Test_Parse_Letter_Full_Gap");
+      Test_Case ((Result = '*'), "Test_Parse_Letter_Full_Gap");
 
       Morse_Case := (Dot, Dot, Dot, Dot, Dot, Dot, Dot, Dot);
       Result := Parse_Letter (Morse_Case);
-      Test_Case ((Result = '#'), "Test_Parse_Letter_Full_Dots");
+      Test_Case ((Result = '*'), "Test_Parse_Letter_Full_Dots");
 
       Morse_Case := (Gap, Dot, Gap, Gap, Gap, Gap, Gap, Gap);
       Result := Parse_Letter (Morse_Case);
-      Test_Case ((Result = '#'), "Test_Parse_Letter_Begin_With_Gap");
+      Test_Case ((Result = '*'), "Test_Parse_Letter_Begin_With_Gap");
 
       Morse_Case := (Dot, Gap, Gap, Gap, Gap, Gap, Gap, Gap);
       Result := Parse_Letter (Morse_Case);
