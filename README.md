@@ -1,4 +1,4 @@
-# ada_morse
+# Ada_Morse
 
 Ada project: you input Morse code with just one button, and the text shows up on the screen of your STM32F4!
 
