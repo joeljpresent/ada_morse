@@ -7,7 +7,7 @@ This project is a submission to the MakeWithAda contest.
 ## How to build
 
 ``` shell
-git clone https://gitlab.com/JoelJPresent/ada_morse.git
+git clone https://github.com/JoelJPresent/ada_morse.git
 cd ada_morse
 git clone https://github.com/AdaCore/Ada_Drivers_Library.git
 make
