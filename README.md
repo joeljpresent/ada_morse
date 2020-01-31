@@ -4,12 +4,22 @@ Ada project: you input Morse code with just one button, and the text shows up on
 
 This project is a submission to the MakeWithAda contest.
 
+## Requirements
+
+You need:
+
+- a STM32F429 board;
+- Gnat for `arm-eabi` and `x86_64-linux-gnu` toolchains;
+- `Ada_Drivers_Library` from AdaCore containing the`boards/stm32f429_discovery/obj` directory.
+
 ## How to build
 
 ``` shell
 git clone https://github.com/JoelJPresent/ada_morse.git
 cd ada_morse
 git clone https://github.com/AdaCore/Ada_Drivers_Library.git
+# You need the boards/stm32f429_discovery/obj directory
+python ./Ada_Drivers_Library/scripts/install_dependencies.py
 make
 ```
 
