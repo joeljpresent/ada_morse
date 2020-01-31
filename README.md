@@ -20,6 +20,7 @@ cd ada_morse
 git clone https://github.com/AdaCore/Ada_Drivers_Library.git
 # You need the boards/stm32f429_discovery/obj directory
 python ./Ada_Drivers_Library/scripts/install_dependencies.py
+python ./Ada_Drivers_Library/scripts/project_wizard.py
 make
 ```
 
